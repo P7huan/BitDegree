@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="grid wide">
+        <div class="row">
+          <header class="header">
+            <div class="col l-2">
+              <div class="header__logo">
+                <div class="mobile-menu">
+                  <label for="mobile-nav" class="mobile-menu__label">
+                    <i class="mobile-menu-icon fas fa-bars"></i>
+                  </label>
+                  <input type="checkbox" hidden id="mobile-nav" class="mobile-nav__input" />
+                  <div class="mobile-menu__container">
+                    <div class="mobile-menu__header">
+                      <a href="" class="mobile-menu__header--link"
+                        ><img
+                          src="https://cdn.bitdegree.org/assets/bitdegree-logo-black.svg"
+                          alt=""
+                          class="mobile-menu__header-logo"
+                      /></a>
+                      <label for="mobile-nav" class="mobile-menu__label"
+                        ><i class="mobile-menu__header-close fas fa-times"></i
+                      ></label>
+                    </div>
+                    <div class="mobile-menu__category">
+                      <div class="mobile__category-selected">
+                        <span class="mobile-category__selected-name">Courses</span>
+                        <i class="mobile-category__selected-icon fas fa-chevron-right"> </i>
+                      </div>
+                    </div>
+                    <div class="mobile-menu__search">
+                      <button class="mobile-menu__search-btn">
+                        <i class="mobile-menu__search-icon fas fa-search"></i>
+                      </button>
+                      <input type="text" class="mobile-menu__search-input" placeholder="Search for Couses" />
+                    </div>
+                    <div class="mobile-menu__action">
+                      <a href="" class="mobile-menu__action-link"> Become Instructor </a>
+                      <a href="" class="mobile-menu__action-link"> Login </a>
+                      <a href="" class="mobile-menu__action-link mobile-menu__action-highlight"> Sign up FREE </a>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="header__logo-link">
+                  <img
+                    src="https://cdn.bitdegree.org/assets/bitdegree-logo-white.svg"
+                    alt="Bitdegree Logo"
+                    class="header__logo-img"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col l-10">
+              <div class="header__nav-warp">
+                <div class="header__category hide-on-mobile">
+                  <div class="category__selected">
+                    <span class="category__selected-name"> Courses </span>
+                    <i class="header__nav-icon fas fa-chevron-down"></i>
+                    <div class="category__option">
+                      <ul class="category__list">
+                        <li class="category__item">
+                          <a href="" class="category__item-link">
+                            Blockchain
+                            <i class="category__item-icon fas fa-angle-right"></i>
+                          </a>
+                        </li>
+                        <li class="category__item">
+                          <a href="" class="category__item-link">
+                            Business
+                            <i class="category__item-icon fas fa-angle-right"></i>
+                          </a>
+                        </li>
+                        <li class="category__item">
+                          <a href="" class="category__item-link">
+                            Coding and Programming
+                            <i class="category__item-icon fas fa-angle-right"></i>
+                          </a>
+                        </li>
+                        <li class="category__item">
+                          <a href="" class="category__item-link">
+                            Data Science
+                            <i class="category__item-icon fas fa-angle-right"></i>
+                          </a>
+                        </li>
+                        <li class="category__item">
+                          <a href="" class="category__item-link">
+                            Design
+                            <i class="category__item-icon fas fa-angle-right"></i>
+                          </a>
+                        </li>
+                        <li class="category__item">
+                          <a href="" class="category__item-link">
+                            IT Securty & Software
+                            <i class="category__item-icon fas fa-angle-right"></i>
+                          </a>
+                        </li>
+                        <li class="category__item">
+                          <a href="" class="category__item-link">
+                            Marketing
+                            <i class="category__item-icon fas fa-angle-right"></i>
+                          </a>
+                        </li>
+                        <ul class="category__list category__list-no--child">
+                          <li class="category__item">
+                            <a href="" class="category__item-link"> BOG Token Club </a>
+                          </li>
+                          <li class="category__item">
+                            <a href="" class="category__item-link"> Community Votes </a>
+                          </li>
+                        </ul>
+                      </ul>
+                      <a href="" class="category__btn">All Categories</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="header__nav">
+                  <div class="header__nav-search hide-on-mobile-tablet">
+                    <button class="header__nav-search--btn"><i class="header__nav-icon fas fa-search"></i></button>
+                    <input type="text" class="header__nav-search--input" placeholder="Search for Courses" />
+                  </div>
+                  <div class="header__nav-action">
+                    <ul class="header__nav-action--list">
+                      <li class="header__nav-action--item">
+                        <a href="" class="header__nav-action--link"
+                          ><i class="header__nav-action--icon fas fa-shopping-cart"></i
+                        ></a>
+                      </li>
+                      <li class="header__nav-action--item hide-on-mobile">
+                        <a href="" class="header__nav-action--link"> Become Instructor </a>
+                      </li>
+                      <li class="header__nav-action--item hide-on-mobile">
+                        <a href="" class="header__nav-action--link"> Login </a>
+                      </li>
+                      <li class="header__nav-action--item action__item-highlight hide-on-mobile">
+                        <a href="" class="header__nav-action--link"> Sign up FREE </a>
+                      </li>
+                      <li class="header__nav-action--item mobile__search">
+                        <a href="" class="header__nav-action--link"> <i class="header__nav-icon fas fa-search"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="banner__content">
+          <h1 class="banner__content-heading">Discover the Top Industries to Conquer</h1>
+          <span class="banner__contetn-desc">Explore the most rewarding career choices and get the right training</span>
+          <div class="banner__content-option">
+            <span class="banner__content-option--lable">Popular:</span>
+            <ul class="banner__content-option--list">
+              <li class="banner__content-option--item">
+                <a href="" class="banner__content-option--btn">Web Development</a>
+              </li>
+              <li class="banner__content-option--item">
+                <a href="" class="banner__content-option--btn">Data Science</a>
+              </li>
+              <li class="banner__content-option--item">
+                <a href="" class="banner__content-option--btn">Game Development</a>
+              </li>
+              <li class="banner__content-option--item">
+                <a href="" class="banner__content-option--btn">AWS Cloud</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

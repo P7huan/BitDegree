@@ -1,0 +1,31 @@
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+  .hide-on-mobile-tablet {
+    display: none;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .banner__content-heading {
+    text-align: center;
+  }
+}
+@media (min-width: 739px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none;
+  }
+}
+@media (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .mobile__search {
+    display: block;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .banner__content-heading {
+    font-size: 35px;
+  }
+}

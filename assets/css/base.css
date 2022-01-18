@@ -1,0 +1,14 @@
+:root {
+  --white-color: #fff;
+  --text-color: ##29303b;
+  --black-color: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+}

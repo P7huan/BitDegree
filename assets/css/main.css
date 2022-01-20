@@ -1029,6 +1029,7 @@ table {
   padding: 16px;
   border-top: 1px solid #ccc;
   border-radius: 5px;
+  text-decoration: none;
 }
 .dapps__item:hover {
   background-color: rgba(238, 238, 238, 0.5);

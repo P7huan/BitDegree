@@ -991,6 +991,11 @@ table {
   border-radius: 3px;
   padding: 16px;
   margin-bottom: 30px;
+  display: block;
+  text-decoration: none;
+}
+.collections__card:hover {
+  background-color: rgba(238, 238, 238, 0.5);
 }
 .collections__card-img {
   width: 100px;

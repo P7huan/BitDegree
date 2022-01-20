@@ -983,7 +983,7 @@ table {
   background-color: var(--primary-color);
 }
 .collections__container {
-  margin: 56px;
+  margin: 36px;
 }
 .collections__card {
   background-color: var(--white-color);

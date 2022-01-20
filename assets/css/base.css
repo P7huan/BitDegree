@@ -1,7 +1,11 @@
 :root {
   --white-color: #fff;
-  --text-color: ##29303b;
+  --text-color: #29303b;
   --black-color: #000;
+  --primary-color: #02bb8c;
+  --secondary-color: #8a2be2;
+  --red-primary-color: #ff0060;
+  --red-secondary-color: #ff0031;
 }
 * {
   margin: 0;
@@ -11,4 +15,73 @@
 }
 html {
   font-family: 'Open Sans', sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.item-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.d-flex {
+  display: flex;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 6px 10px;
+  font-size: 16;
+  line-height: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--white-color);
+}
+.section__btn {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 20px 26px;
+  border-radius: 30px;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  margin: 30px auto;
+}
+.section__btn:hover {
+  background-color: var(--secondary-color);
+}
+.section__heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-color);
+  line-height: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section__desc {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  line-height: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.table__comparison-highlight {
+  background-color: rgba(2, 187, 140, 0.3);
+  border-left: 1px solid #02bb8c !important;
+  border-right: 1px solid #02bb8c !important;
+}
+.section__mr {
+  margin: 0 140px 100px;
 }

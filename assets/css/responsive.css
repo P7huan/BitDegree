@@ -9,6 +9,50 @@
   .banner__content-heading {
     text-align: center;
   }
+  .courses-card__desc {
+    display: none;
+  }
+  .section__mr {
+    margin: 30px;
+  }
+  .coupon__logo {
+    display: block;
+    margin: 0 auto;
+  }
+  .coupon__verified {
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .coupon__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .coupon__bonus-desc {
+    text-align: center;
+  }
+  .coupon__info {
+    display: flex;
+    justify-content: center;
+  }
+  .rating__heading {
+    text-align: center;
+  }
+  .rating__stars {
+    justify-content: center;
+  }
+  .compare__data-symbol {
+    left: 48%;
+  }
+  .top-coupons {
+    padding: 20px;
+  }
+  .collections__container {
+    margin: 30px;
+  }
+  .footer__container {
+    padding: 30px 20px;
+  }
 }
 @media (min-width: 739px) and (max-width: 1023px) {
   .hide-on-tablet {
@@ -26,6 +70,9 @@
     display: block;
   }
   .banner__content-heading {
-    font-size: 35px;
+    font-size: 36px;
+  }
+  .tutorial__container {
+    padding: 20px 10px;
   }
 }

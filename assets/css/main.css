@@ -1009,6 +1009,7 @@ table {
   text-align: center;
   margin: 10px 0;
   height: 50px;
+  color: var(--text-color);
 }
 .collections__card-sub {
   display: flex;
